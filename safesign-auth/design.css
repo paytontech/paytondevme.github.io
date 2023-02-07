@@ -1,0 +1,16 @@
+body {
+    font-family: Satoshi;
+    margin: auto;
+    max-width: 38rem;
+    padding: 2rem;
+    /* text-align: center; */
+  }
+  @font-face {
+    font-family: Poppins;
+    src: url(assets/fonts/Poppins-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: Satoshi;
+    src: url(assets/fonts/Satoshi-Bold.otf);
+  }
+  

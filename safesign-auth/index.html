@@ -12,8 +12,8 @@
     <h3>Your login was successful! You can close this tab and begin to use SafeSign.</h3>
     <script>
         const url = new URL(window.location).searchParams
-        console.log(url)
-        // window.location = `safesign-auth://?auth=${url.get('')}`
+        console.log(url.get('code'))
+        window.location = `safesign-auth://?auth=${url.get('code')}`
     </script>
 </body>
 </html>
